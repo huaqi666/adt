@@ -9,7 +9,7 @@ import com.wobangkj.api.SessionSerializable;
 import com.wobangkj.api.TokenPrintable;
 import com.wobangkj.utils.DateUtils;
 import lombok.Data;
-import lombok.extern.slf4j.Slf4j;
+import lombok.EqualsAndHashCode;
 
 import java.time.Instant;
 import java.time.ZoneId;
@@ -43,9 +43,9 @@ public class TokenData implements SessionSerializable, Printable {
  * @since 2020-09-15
  */
 @Data
-@Slf4j
+@EqualsAndHashCode(callSuper = true)
 @JsonPropertyOrder({"token", "expire"})
-class TokenInfo implements SessionSerializable, TokenPrintable {
+class TokenInfo extends TokenPrintable implements SessionSerializable {
 	private static final long serialVersionUID = -4582126008468926217L;
 	@JsonProperty("token")
 	private String authorizationToken;
@@ -81,8 +81,4 @@ class TokenInfo implements SessionSerializable, TokenPrintable {
 		return this.toJson();
 	}
 
-	@Override
-	public void print() {
-		log.info(fromFormat());
-	}
 }

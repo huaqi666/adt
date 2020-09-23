@@ -2,6 +2,7 @@ package com.wobangkj.utils;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.TemporalAccessor;
 
 /**
  * 时间工具类
@@ -18,5 +19,13 @@ public class DateUtils {
 
 	public static String getNow(String pattern) {
 		return LocalDateTime.now().format(DateTimeFormatter.ofPattern(pattern));
+	}
+
+	public static String format(TemporalAccessor temporal, String pattern) {
+		return DateTimeFormatter.ofPattern(pattern).format(temporal);
+	}
+
+	public static String format(TemporalAccessor temporal) {
+		return DATETIME_FORMATTER.format(temporal);
 	}
 }

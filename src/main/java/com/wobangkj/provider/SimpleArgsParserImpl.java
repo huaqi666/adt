@@ -1,13 +1,10 @@
 package com.wobangkj.provider;
 
 import com.wobangkj.Const;
-import com.wobangkj.TokenApp;
 import com.wobangkj.api.ArgsParser;
 import com.wobangkj.api.TokenGenerate;
-import com.wobangkj.utils.AliUtils;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * main解析器实现
@@ -20,8 +17,8 @@ public class SimpleArgsParserImpl implements ArgsParser {
 	/**
 	 * 简单命令
 	 */
-	private final List<String> commands = Arrays.asList("-v", "-h");
-	private final List<String> version = Arrays.asList("1", "2");
+	private final List<String> commands = Arrays.asList("-c", "-h");
+	private final List<String> version = Arrays.asList("docker");
 
 	private Map<String, String> args;
 
@@ -52,13 +49,13 @@ public class SimpleArgsParserImpl implements ArgsParser {
 	 */
 	@Override
 	public TokenGenerate getGenerate() {
-		String version = "1";
+		String command = "docker";
 		if (this.args.containsKey(commands.get(0))) {
-			version = this.args.get("-v");
+			command = this.args.get("-v");
 		}
-		if (!this.version.contains(version)) {
-			version = this.version.get(0);
+		if (!this.version.contains(command)) {
+			command = this.version.get(0);
 		}
-		return new DockerTokenGenerateAware(Const.config, version);
+		return DockerAware.getInstance(Const.config, command);
 	}
 }

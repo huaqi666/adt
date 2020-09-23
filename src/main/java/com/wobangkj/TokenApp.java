@@ -14,9 +14,10 @@ import java.io.IOException;
 @Slf4j
 public class TokenApp {
 	public static void main(String[] args) throws ClientException, IOException {
+		log.info("初始化...");
 		Const.init();
-		log.info("获取临时密码...");
+		log.info("解析中...");
 		AliUtils.getToken(args).print();
-		log.info("临时密码获取成功.");
+		log.info("完成并退出.");
 	}
 }

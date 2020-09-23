@@ -3,10 +3,12 @@ package com.wobangkj.bean;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.wobangkj.api.SessionSerializable;
 import com.wobangkj.api.TokenPrintable;
 import com.wobangkj.utils.DateUtils;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.extern.slf4j.Slf4j;
 
 import java.time.Instant;
@@ -20,8 +22,9 @@ import java.util.Date;
  * @since 9/23/20 10:27 AM
  */
 @Data
-@Slf4j
-public class TokenResponse implements SessionSerializable, TokenPrintable {
+@EqualsAndHashCode(callSuper = true)
+@JsonPropertyOrder({"token", "expire"})
+public class TokenResponse extends TokenPrintable implements SessionSerializable {
 	private static final long serialVersionUID = 121135636659048829L;
 	@JsonProperty("token")
 	private String authorizationToken;
@@ -54,13 +57,5 @@ public class TokenResponse implements SessionSerializable, TokenPrintable {
 
 	public void setExpire(Date expire) {
 		this.expireTime = String.valueOf(expire.getTime());
-	}
-
-	/**
-	 * 打印输出结果
-	 */
-	@Override
-	public void print() {
-		log.info(fromFormat());
 	}
 }

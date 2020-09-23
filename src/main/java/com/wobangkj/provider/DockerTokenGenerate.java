@@ -15,6 +15,7 @@ import com.wobangkj.bean.TokenData;
 import com.wobangkj.config.AccessConfig;
 import com.wobangkj.utils.JsonUtils;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.http.HttpHeaders;
 
 /**
  * 生成docker临时密码
@@ -23,7 +24,7 @@ import lombok.extern.slf4j.Slf4j;
  * @since 9/23/20 10:35 AM
  */
 @Slf4j
-public class DockerTokenV1Generate implements TokenGenerate {
+public class DockerTokenGenerate implements TokenGenerate {
 	/**
 	 * v1.0
 	 * ak和as是docker@zhq帐号的.
@@ -33,26 +34,21 @@ public class DockerTokenV1Generate implements TokenGenerate {
 	private final IAcsClient client;
 	private final CommonRequest request;
 
-	public DockerTokenV1Generate(String regionId, String accessKeyId, String secret) {
-		this(DefaultProfile.getProfile(regionId, accessKeyId, secret));
-	}
-
-	public DockerTokenV1Generate(AccessConfig config) {
+	public DockerTokenGenerate(AccessConfig config) {
 		this(DefaultProfile.getProfile(config.getRegionId(), config.getAccessKeyId(), config.getSecret()));
 	}
 
-	public DockerTokenV1Generate(DefaultProfile profile) {
+	public DockerTokenGenerate(DefaultProfile profile) {
 		client = new DefaultAcsClient(profile);
-		// 旧版本 - 2016-06-07
+		// 2016-06-07
 		request = new CommonRequest();
 		request.setSysProtocol(ProtocolType.HTTPS);
 		request.setSysMethod(MethodType.GET);
 		request.setSysDomain("cr.cn-hangzhou.aliyuncs.com");
 		request.setSysVersion("2016-06-07");
 		request.setSysUriPattern("/tokens");
-		request.putHeadParameter("Content-Type", "application/json");
-		String requestBody = "{}";
-		request.setHttpContent(requestBody.getBytes(), "utf-8", FormatType.JSON);
+		request.putHeadParameter(HttpHeaders.CONTENT_TYPE, "application/json");
+		request.setHttpContent("{}".getBytes(), "utf-8", FormatType.JSON);
 	}
 
 	/**

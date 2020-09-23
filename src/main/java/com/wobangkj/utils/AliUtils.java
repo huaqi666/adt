@@ -1,15 +1,12 @@
 package com.wobangkj.utils;
 
 import com.aliyuncs.exceptions.ClientException;
-import com.wobangkj.Const;
 import com.wobangkj.api.Printable;
-import com.wobangkj.api.TokenGenerate;
-import com.wobangkj.provider.DockerTokenGenerateAware;
 import com.wobangkj.provider.SimpleArgsParserImpl;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * 获取token
+ * 解析参数, 获取打印结果
  *
  * @author cliod
  * @since 9/15/20 3:47 PM
