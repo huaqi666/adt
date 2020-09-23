@@ -1,0 +1,6 @@
+### Maven template
+target/
+pom.xml.*
+
+# User-specific stuff
+.idea/

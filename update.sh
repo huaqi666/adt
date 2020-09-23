@@ -2,7 +2,7 @@
 mvn clean compile package -Dmaven.test.skip=true
 
 NAME=ali-docker-token
-VER=1.1.1
+VER=1.1.2
 
 docker build -t registry.cn-hangzhou.aliyuncs.com/protected/${NAME}:${VER} .
 
@@ -18,4 +18,4 @@ docker tag registry.cn-hangzhou.aliyuncs.com/protected/${NAME}:latest ali-token:
 
 docker images | grep registry.cn-hangzhou.aliyuncs.com/protected/${NAME} | awk '{print "docker rmi -f "$1":"$2}' | sh
 
-docker images | grep none | awk '{print $3 }' | xargs docker rmi
+#docker images | grep none | awk '{print $3 }' | xargs docker rmi
