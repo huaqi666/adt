@@ -2,7 +2,7 @@
 mvn clean compile package -Dmaven.test.skip=true
 
 NAME=ali-docker-token
-VER=1.2
+VER=1.2.1
 
 docker build -t registry.cn-hangzhou.aliyuncs.com/protected/${NAME}:${VER} .
 
