@@ -15,7 +15,7 @@ import java.io.IOException;
 public class TokenApp {
 	public static void main(String[] args) throws ClientException, IOException {
 		log.info("初始化...");
-		Const.init();
+		Config.init();
 		log.info("解析中...");
 		AliUtils.getToken(args).print();
 		log.info("完成并退出.");

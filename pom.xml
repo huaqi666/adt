@@ -6,7 +6,7 @@
 
     <groupId>com.wobangkj</groupId>
     <artifactId>ali-docker-token</artifactId>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
 
     <name>ali-docker-token</name>
     <url>http://www.wobangkj.com</url>

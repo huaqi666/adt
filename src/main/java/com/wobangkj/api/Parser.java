@@ -6,12 +6,12 @@ package com.wobangkj.api;
  * @author cliod
  * @since 9/23/20 11:07 AM
  */
-public interface Parser {
+public interface Parser<T> {
 
 	/**
 	 * 解析
 	 *
 	 * @return 结果
 	 */
-	Object parse();
+	T parse();
 }

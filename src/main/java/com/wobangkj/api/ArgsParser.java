@@ -6,7 +6,7 @@ package com.wobangkj.api;
  * @author cliod
  * @since 9/23/20 11:08 AM
  */
-public interface ArgsParser extends Parser {
+public interface ArgsParser extends Parser<TokenGenerate> {
 
 	/**
 	 * 获取解析结果
