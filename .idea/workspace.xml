@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eec8b135-e619-4aed-a500-5b0a0f0b87ca" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hXe5qkvQRdHytcgpl9aV8s6NXg" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="/opt/android-sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="zielu.svntoolbox.prj.config" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wobangkj.api" />
+      <recent name="com.wobangkj.provider" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/wobangkj/utils" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TokenApp" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wobangkj.TokenApp" />
+      <module name="ali-docker-token" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wobangkj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eec8b135-e619-4aed-a500-5b0a0f0b87ca" name="Default Changelist" comment="" />
+      <created>1600161686771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600161686771</updated>
+      <workItem from="1600161689341" duration="1069000" />
+      <workItem from="1600825810560" duration="11836000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="484" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600830212395">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="484" y="190" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1600830212395" />
+    <state x="834" y="241" width="374" height="577" key="#com.intellij.ide.util.MemberChooser" timestamp="1600837746288">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="834" y="241" width="374" height="577" key="#com.intellij.ide.util.MemberChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1600837746288" />
+    <state x="765" y="118" width="512" height="824" key="Diagram.Print.Preview.Dialog" timestamp="1600838174254">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="765" y="118" width="512" height="824" key="Diagram.Print.Preview.Dialog/0.28.1920.1052@0.28.1920.1052" timestamp="1600838174254" />
+    <state x="809" y="261" width="424" height="537" key="FileChooserDialogImpl" timestamp="1600838258780">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="809" y="261" width="424" height="537" key="FileChooserDialogImpl/0.28.1920.1052@0.28.1920.1052" timestamp="1600838258780" />
+    <state width="1675" height="265" key="GridCell.Tab.0.bottom" timestamp="1600838664596">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1675" height="265" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1600838664596" />
+    <state width="1675" height="265" key="GridCell.Tab.0.center" timestamp="1600838664593">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1675" height="265" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1600838664593" />
+    <state width="1675" height="265" key="GridCell.Tab.0.left" timestamp="1600838664593">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1675" height="265" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1600838664593" />
+    <state width="1675" height="265" key="GridCell.Tab.0.right" timestamp="1600838664593">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1675" height="265" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1600838664593" />
+    <state width="1675" height="327" key="GridCell.Tab.1.bottom" timestamp="1600834367880">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1675" height="327" key="GridCell.Tab.1.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1600834367880" />
+    <state width="1675" height="327" key="GridCell.Tab.1.center" timestamp="1600834367879">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1675" height="327" key="GridCell.Tab.1.center/0.28.1920.1052@0.28.1920.1052" timestamp="1600834367879" />
+    <state width="1675" height="327" key="GridCell.Tab.1.left" timestamp="1600834367879">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1675" height="327" key="GridCell.Tab.1.left/0.28.1920.1052@0.28.1920.1052" timestamp="1600834367879" />
+    <state width="1675" height="327" key="GridCell.Tab.1.right" timestamp="1600834367879">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1675" height="327" key="GridCell.Tab.1.right/0.28.1920.1052@0.28.1920.1052" timestamp="1600834367879" />
+    <state x="609" y="270" width="824" height="520" key="IDE.errors.dialog" timestamp="1600827806538">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="609" y="270" width="824" height="520" key="IDE.errors.dialog/0.28.1920.1052@0.28.1920.1052" timestamp="1600827806538" />
+    <state x="509" y="109" width="1024" height="841" key="SettingsEditor" timestamp="1600829158630">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="509" y="109" width="1024" height="841" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1600829158630" />
+    <state x="733" y="252" width="587" height="560" key="find.popup" timestamp="1600829276663">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="733" y="252" width="587" height="560" key="find.popup/0.28.1920.1052@0.28.1920.1052" timestamp="1600829276663" />
+    <state x="689" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1600833385050">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="689" y="249" width="672" height="678" key="search.everywhere.popup/0.28.1920.1052@0.28.1920.1052" timestamp="1600833385050" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
