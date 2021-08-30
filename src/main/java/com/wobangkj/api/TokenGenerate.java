@@ -8,7 +8,7 @@ import com.aliyuncs.exceptions.ClientException;
  * @author cliod
  * @since 9/23/20 10:29 AM
  */
-public interface TokenGenerate extends Generate {
+public interface TokenGenerate extends Generate<Printable> {
 	/**
 	 * 获取指定帐号的临时密码
 	 *
